@@ -2,6 +2,7 @@ import React from "react";
 import NoteSearch from "./NoteSearch";
 import NoteUpload from "./NoteUpload";
 import NotePreview from "./NotePreview";
+import Api from "./api"
 
 const NotesPage = () => {
   return (
@@ -12,8 +13,13 @@ const NotesPage = () => {
         <NoteSearch />
       </div>
 
+     
       <div className="mb-6">
         <NoteUpload />
+      </div>
+
+      <div className="mb-6">
+        <Api />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
