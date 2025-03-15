@@ -1,88 +1,69 @@
-# StudyAI 🌟🚀
+# Welcome to your Lovable project
 
-Welcome to **StudyAI**, your ultimate study assistant! 📚✨
+## Project info
 
-Are you tired of juggling endless notes, trying to make sense of mountains of information? Look no further! StudyAI is here to **supercharge your studying** and help you **study smarter, not harder**! 🎓
+**URL**: https://lovable.dev/projects/120b5948-c722-4b43-82ac-a0214dfc60fd
 
-## 📚 What is StudyAI?
+## How can I edit this code?
 
-StudyAI is a cutting-edge platform designed to **revolutionize your study sessions**. Whether you're preparing for an exam, need help with a tough concept, or just want to organize your study materials, StudyAI makes it easy and **fun**! 🌟
+There are several ways of editing your application.
 
-**Upload your study materials** (PDFs, Word docs, images, etc.), and let StudyAI's **powerful AI** work its magic. It’ll **summarize**, **simplify**, and generate helpful study tools like **flashcards**, **memory aids**, and more — all tailored to **you**! 💪
+**Use Lovable**
 
-## 🔑 Key Features:
+Simply visit the [Lovable Project](https://lovable.dev/projects/120b5948-c722-4b43-82ac-a0214dfc60fd) and start prompting.
 
-### 📥 **Note Upload & Smart Organization**
-- Upload any study material (PDF, Word, images). 🖼️
-- StudyAI organizes your notes by **subject**, **course**, or **date** automatically. 📂
-- Add **tags** for easy searching. 🔍
+Changes made via Lovable will be committed automatically to this repo.
 
-### 🤖 **AI-Powered Summarization**
-- Let StudyAI read and **simplify** your notes into concise summaries or detailed explanations. 📑
-- Customizable: You choose how much detail you want! ✍️
+**Use your preferred IDE**
 
-### 🃏 **Flashcard Generator**
-- **Instant flashcards** generated from your notes. 🎴
-- Integrated with **spaced-repetition** for better memorization! ⏳
-- Review on the platform or **download** for offline use. 🌐
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 💡 **Memory Aids & Tricks**
-- Personalized **mnemonics**, **acronyms**, and **rhymes** for tough topics. 🧠
-- Simplified versions of complex formulas and theories. 🔑
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 📅 **Historical Archive**
-- All your processed notes are saved for easy access later. 🗂️
-- No need to re-upload — everything’s at your fingertips! 🔄
+Follow these steps:
 
-### 🎓 **Interactive Study Sessions**
-- **Clarify concepts** with StudyAI’s tailored explanations. 💬
-- Ask for **examples** or **extra help** for tough topics. 📖
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### 🔄 **User Profiles & Preferences**
-- Personalize your study experience by saving your preferences. ✨
-- Get notifications to **revise** or practice based on your past study history. 🔔
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-### 👥 **Collaborative Study Groups**
-- Share your notes with classmates and **study together**! 🤝
-- Improve your understanding through **collaboration**. 💬
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 📊 **AI Progress Tracker**
-- Track your **study history** and see how you're improving. 💯
-- Receive AI-powered suggestions for areas to focus on next. 🔎
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## ⚙️ Tech Stack
+**Edit a file directly in GitHub**
 
-Here’s the magic that powers StudyAI:  
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- **Frontend:** React.js or Next.js for an elegant and dynamic user experience. 💻  
-- **Backend:** Node.js for smooth server-side functionality. ⚡  
-- **Database:** MongoDB for flexible note management and authentication. 🗃️  
-- **AI Tools:** GPT models to summarize, answer questions, and generate flashcards. 🤖  
-- **Cloud Hosting:** AWS or Firebase for fast and secure file syncing. 📡
+**Use GitHub Codespaces**
 
-## 🚀 Contribute
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-We’d love your help to make StudyAI even more powerful! Whether you’re a developer, designer, or AI enthusiast, your contributions are always welcome. 🙌
+## What technologies are used for this project?
 
-### How to Contribute:
-1. Fork this repo. 🍴
-2. Create a new branch (`git checkout -b feature-name`). 🌱
-3. Commit your changes (`git commit -m 'Add new feature'`). ✨
-4. Push to the branch (`git push origin feature-name`). 🚀
-5. Open a Pull Request! 🔄
+This project is built with .
 
-## 📖 License
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more info. ⚖️
+## How can I deploy this project?
 
----
+Simply open [Lovable](https://lovable.dev/projects/120b5948-c722-4b43-82ac-a0214dfc60fd) and click on Share -> Publish.
 
-### 💬 Let’s Stay in Touch:
+## I want to use a custom domain - is that possible?
 
-- **Email:** study2k25ab@gmail.com ✉️
-
----
-
-### 🙏 Thank You for Exploring StudyAI! 🎉
-
-StudyAI is all about making learning easier, more personalized, and way less stressful. With **StudyAI**, you’re not just memorizing; you're **mastering**. 🌟
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
